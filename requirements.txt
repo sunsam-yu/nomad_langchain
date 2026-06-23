@@ -7,4 +7,3 @@ langchain-text-splitters
 langchain-classic
 faiss-cpu
 tiktoken
-EOF
