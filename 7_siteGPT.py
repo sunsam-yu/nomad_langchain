@@ -196,7 +196,7 @@ if "messages" not in st.session_state:
     st.session_state["messages"] = []
 
 
-st.title("🌐 Cloudflare SiteGPT")
+st.title("🌐 SiteGPT")
 
 st.markdown(
     """
