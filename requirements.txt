@@ -8,3 +8,5 @@ langchain-classic
 faiss-cpu
 tiktoken
 wikipedia
+beautifulsoup4
+lxml
