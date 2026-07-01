@@ -1,0 +1,20 @@
+### Research Report on the XZ Backdoor
+
+**What is the XZ Backdoor?**  
+The XZ backdoor, identified as CVE-2024-3094, is a malicious backdoor discovered in the XZ Utils software, which is used for lossless data compression. This backdoor allows an attacker with a specific private key to remotely execute code on affected systems via OpenSSH.
+
+**Timeline of Events:**  
+- **March 29, 2024:** The backdoor was discovered in XZ Utils versions 5.6.0 and 5.6.1.  
+- **April 1, 2024:** The Cybersecurity and Infrastructure Security Agency (CISA) issued an alert regarding the backdoor.  
+
+**Affected Software/Project:**  
+The backdoor affects XZ Utils, specifically versions 5.6.0 and 5.6.1, which are widely used in various Linux distributions and software projects.
+
+**Discovery and Reporting:**  
+The backdoor was discovered by security researcher Andres Freund, who reported it to the relevant security channels.
+
+**Security Impact:**  
+The XZ backdoor represents a significant security risk as it allows unauthorized remote access to systems, potentially leading to data breaches and further exploitation. The incident highlights the vulnerabilities associated with supply chain attacks, where malicious code is injected into legitimate software releases.
+
+**Conclusion:**  
+The XZ backdoor incident serves as a critical reminder of the importance of securing software supply chains and the need for vigilance in monitoring software integrity.
